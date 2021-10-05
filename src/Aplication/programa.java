@@ -1,11 +1,10 @@
 package Aplication;
 
-import BordGame.Position;
+import BordGame.Board;
+
 
 public class programa {
     public static void main(String[] args) {
-        System.out.println("hello word!!");
-        Position pos = new Position(3,5);
-        System.out.println(pos);
+       Board board = new Board(8,8);
     }
 }
