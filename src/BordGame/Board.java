@@ -25,4 +25,11 @@ public class Board {
     public void setColunas(int colunas) {
         this.colunas = colunas;
     }
+    public Piece piece(int linha,int coluna){
+        return picies[linha][coluna];
+
+    }
+    public Piece piecie(Position position){
+        return picies[position.getLinha()][position.getColuna()];
+    }
 }
